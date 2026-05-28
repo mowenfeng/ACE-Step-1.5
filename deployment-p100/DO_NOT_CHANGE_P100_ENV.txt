@@ -1,0 +1,18 @@
+This ACE-Step P100 environment is working.
+
+DO NOT reinstall:
+- torch
+- torchvision
+- CUDA packages
+- xformers
+- flash-attn
+
+Use:
+- Python: .venv-p100/bin/python
+- torch: 2.4.0+cu118
+- CUDA: 11.8
+- GPU: Tesla P100-PCIE-16GB
+- dtype: fp16 only
+- no bf16
+- no flash attention
+- no automatic model downloads
